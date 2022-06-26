@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors')
 module.exports = {
-  content: ["./src/**/*.{html,js,vue}"],
+  content: ["./src/**/*.{html,js,vue, ts, tsx, jsx}"],
   theme: {
     extend: {
       colors: {
